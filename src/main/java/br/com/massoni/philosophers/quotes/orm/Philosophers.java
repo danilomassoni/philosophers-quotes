@@ -12,6 +12,11 @@ public class Philosophers {
     private String name;
     private String quote;
 
+    public Philosophers(String name, String quote) {
+        this.name = name;
+        this.quote = quote;
+    }
+
     public Integer getId() {
         return id;
     }

@@ -24,13 +24,13 @@ public class PhilosophersQuotesApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Philosophers name = new Philosophers();
-		name.setName("Aristotle");
-
-		Philosophers quote = new Philosophers();
-		quote.setQuote("Knowing yourself is the beginning of all wisdom");
-
-		repository.save(name);
-		repository.save(quote);
+//		Philosophers name = new Philosophers("Name: ");
+//		name.setName("Aristotle");
+//
+//		Philosophers quote = new Philosophers();
+//		quote.setQuote("Knowing yourself is the beginning of all wisdom");
+//
+//		repository.save(name);
+//		repository.save(quote);
 	}
 }
