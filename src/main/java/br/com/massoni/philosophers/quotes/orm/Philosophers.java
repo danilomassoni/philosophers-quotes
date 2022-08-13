@@ -9,13 +9,17 @@ public class Philosophers {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+
+    @Column
     private String name;
+
+    @Column
     private String quote;
 
-    public Philosophers(String name, String quote) {
-        this.name = name;
-        this.quote = quote;
-    }
+//    public Philosophers(String name, String quote) {
+//        this.name = name;
+//        this.quote = quote;
+//    }
 
     public Integer getId() {
         return id;
